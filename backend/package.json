@@ -4,7 +4,6 @@
   "type": "module",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -13,9 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bullmq": "^5.66.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "socket.io": "^4.8.1"
+    "ioredis": "^5.8.2",
+    "socket.io": "^4.8.3"
   }
 }
